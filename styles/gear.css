@@ -1,0 +1,123 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+  
+
+body{  font-family: "Poppins", serif;}
+
+
+/* navbar design  */
+
+
+.navbar{
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav-title{
+    font-weight: 700;
+
+font-size: 1.5rem;
+color: rgba(58, 58, 58, 1);
+}
+
+
+.navbar ul{
+    display: flex;
+
+    align-items: center;
+}
+
+.navbar li{ list-style: none;margin-right: 20px;
+    font-size: 1rem; font-weight: 600;
+    color: rgba(58, 58, 58, 1);
+  
+}
+
+
+nav a{text-decoration: none;
+
+color: rgba(58, 58, 58, 1);}
+
+
+
+/* banner section design  */
+ .banner{
+    display: flex;
+    justify-content: center;
+ }
+
+
+ .banner-box{
+    width: 42%;
+ }
+.banner-title{
+    font-weight: 700;
+    font-size: 3.25rem;
+    color: rgba(58, 58, 58, 1);
+ 
+
+}
+
+.banner-description{
+    font-weight: 600;
+    font-size: 1rem;
+    color: rgba(58, 58, 58, 1);
+    margin-bottom: 35px;
+    margin-top: -20px;
+
+
+}
+
+
+.banner-btn{
+    font-weight: 700;
+    font-size: 1rem;
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(224, 44, 109, 1);
+    padding: 10px 24px;
+    border-radius: 41px;
+}
+
+.fa-solid{ margin-left: 10px;}
+
+.image {
+    width: 30%;
+    background-color: rgb(252, 249, 249);
+    border-radius: 50%;
+    border: 1px solid rgb(233, 230, 230);
+}
+
+.image img{ width: 100%;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:576px){
+.navbar{
+    display: inline;
+}
+    .navbar ul{display: none;
+        
+    }
+    .banner{ flex-direction: column-reverse;
+
+    }
+}
