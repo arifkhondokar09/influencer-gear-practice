@@ -23,8 +23,7 @@ color: rgba(58, 58, 58, 1);
 
 .navbar ul{
     display: flex;
-
-    align-items: center;
+justify-content: center;
 }
 
 .navbar li{ list-style: none;margin-right: 20px;
@@ -153,6 +152,20 @@ margin-left: 20px;
 
 @media screen and (min-width:576.01px ) and (max-width:992px){
 
+    .image{ display: grid;
+      width: 50%;
+      place-items: center;
+      border-radius: 50%;
+      margin-left: 20px;
+   
+    }
+    .navbar {
+  
+        flex-direction: column;
+        text-align: center;
+    }
+    
+.nav ul{ justify-content: center;}
 
 
 
