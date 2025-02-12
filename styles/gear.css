@@ -109,15 +109,51 @@ color: rgba(58, 58, 58, 1);}
 
 
 
+@media screen and (max-width:576px){   
 
-@media screen and (max-width:576px){
-.navbar{
-    display: inline;
+.navbar {
+  
+    flex-direction: column;
+    text-align: center;
 }
-    .navbar ul{display: none;
-        
-    }
-    .banner{ flex-direction: column-reverse;
+    
+.navbar ul {
+ 
+    flex-direction: column;
+}
 
-    }
+
+.banner{
+    flex-direction: column;
+}
+
+.banner-box{ width: calc(100% - 20px);
+margin-left: 20px;
+}
+
+.image { width: auto;
+    margin-top: 30px;
+}
+
+.navbar ul{
+    padding-left: 0;
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:576.01px ) and (max-width:992px){
+
+
+
+
 }
